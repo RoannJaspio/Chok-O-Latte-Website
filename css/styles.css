@@ -1,0 +1,253 @@
+/* Title Section */
+#title {
+  background-color: #FFB775;
+}
+
+h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 4.5rem;
+  line-height: 1.5;
+  color: white;
+  margin: 3% 20%;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 2rem;
+  line-height: 1;
+  color:black;
+}
+
+body {
+  font-family: 'Philosopher', sans-serif;
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  padding: 4% 9%;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding-bottom: 0.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Download Buttons */
+.front-button {
+  margin: 5% 2% 8% 0;
+}
+
+.choco_profile {
+  height: 65%;
+  width: 65%;
+  border-radius: 100%;
+  transform: rotate(4deg);
+  padding: 5%;
+}
+
+/* Media Query Title Section */
+
+@media (max-width:320px){
+  #title {
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .choco_profile {
+    height: 40%;
+    width: 40%;
+    position: static;
+    padding: 4%;
+
+  }
+
+   .navbar-brand {
+    font-size: 18px;
+   }
+
+  .nav-link {
+   font-size: 12px;
+  }
+}
+
+/* Features Section */
+.fa-2x {
+  color: burlywood;
+  font-size: 2rem;
+}
+
+.fa-2x:hover {
+  color: rgba(104, 62, 8, 0.822);
+}
+
+.Features {
+  padding: 5%;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+/* Media Query Features Section  */
+@media (max-width:992px){
+  #features {
+    text-align: center;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 12px;
+  }
+  .fa-2x{
+    font-size: 12px;
+  }
+}
+
+/* Testimonials Section */
+#testimonials {
+  text-align: center;
+  background-color: #FFB775;
+  color: rgba(104, 62, 8, 0.822);
+}
+
+.carousel-item {
+  padding: 5% 16%;
+}
+
+.testimonials {
+  width: 15%;
+  height: 15%;
+  border-radius: 100%;
+  margin: 25px;
+}
+
+/* Media Query Testimonials Section */
+@media (max-width:1028px) {
+  h2 {
+     font-size: 1.5rem;
+   }
+
+  em {
+   font-size: 10px;
+  }
+
+  .testimonials{
+   width: 100px;
+   height: 100px;
+  }
+}
+
+/* Press Section */
+#press {
+  background-color: #FFB775;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  height: 15%;
+  width: 15%;
+  margin: 20px 20px 30px;
+}
+
+/* Media Query Press Section */
+@media (max-width:992px) {
+.press-image {
+  height: 150px;
+  width: 150px;
+}
+}
+
+/* Pricing Section */
+.pricelist {
+  text-align: center;
+  padding: 6% 2%;
+}
+
+.pricecard {
+  text-align: center;
+  padding: 0% 6% 6%;
+}
+
+.card {
+  margin-bottom: 4%;
+}
+
+.card-header {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.card-body {
+  background-color: #FFB775;
+  color: rgba(104, 62, 8, 0.822);
+  text-align: center;
+}
+
+/* Media Query Pricing Section */
+@media (max-width:1028px) {
+  h2 {
+     font-size: 1.5rem;
+   }
+   h3 {
+      font-size: 1rem;
+    }
+   p {
+    font-size: 12px;
+  }
+  }
+
+/* Call to Action Section */
+  #cta {
+  text-align: center;
+  background-color:#FFB775;
+  padding: 5% 12%;
+}
+.cta-button{
+  margin: 1%;
+}
+
+/* Media Query Call to Action Section */
+@media (max-width:1028px) {
+h3 {
+  font-size: 1.5rem;
+}
+.choco{
+  height: 30%;
+  width: 40%;
+}
+}
+
+/* Footer Section */
+#footer {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.fa-2x{
+  margin: 2% 1% 1% 0;
+}
